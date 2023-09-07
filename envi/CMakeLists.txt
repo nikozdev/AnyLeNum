@@ -94,7 +94,7 @@ endif(${vMoptName}MakeTsll)
 ##exe
 
 set(vTexeName "t${vProjName}Exe")
-set(vTexePath "${RUNTIME_OUTPUT_DIRECTORY}")
+set(vTexePath "${CMAKE_RUNTIME_OUTPUT_DIRECTORY}")
 set(vTexeFile "${vTexePath}/${vTexeName}")
 
 option(${vMoptName}MakeTexe "build executable target" TRUE)

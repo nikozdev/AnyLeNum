@@ -58,7 +58,13 @@ tTestTab vTestTab = {
 	 []()
 	 {
 		 fmt::println(stdout, "HelloWorld");
-		 return 1;
+		 return EXIT_SUCCESS;
+	 }},
+	{"GrowingStandardView",
+	 []()
+	 {
+		 auto vGS = nNikoZDev::nAnyLeNum::tGrowingStandard{"+1234567890abcdef"};
+		 return EXIT_SUCCESS;
 	 }},
 };		//vTestTab
 #endif//ifd(dAnyLeNum_MakeTexe)
